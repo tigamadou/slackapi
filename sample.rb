@@ -14,6 +14,6 @@ module Clockwork
         client.notify(msg)
         n += 1
     end
-    every(10.seconds, 'Slack Bot running')
+    every(3.minutes, 'Slack Bot running')
 
 end
